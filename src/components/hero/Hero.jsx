@@ -8,7 +8,7 @@ export const Hero = () => {
           <h1 className=" text-5xl font-black tracking-wide">Hola, soy Daniel. Desarrollador frontend</h1>
           <p className=" text-lg font-light leading-5">Listo para ayudarte a resolver todas las dudas que tengas sobre la web!</p>
           <div className='flex flex-col gap-4 md:flex-row'>
-            <button className=" w-full bg-teal-400 hover:bg-transparent text-white hover:text-black font-bold h-14 rounded-md hover:border-2 hover:border-teal-400">Get my CV</button>
+            <a href='/assets/Daniel_frontend_CV.pdf' className=" w-full flex justify-center items-center bg-teal-400 hover:bg-transparent text-white hover:text-black font-bold h-14 rounded-md hover:border-2 hover:border-teal-400" download>Get my CV</a>
             <a href="mailto:danielazocardev@gmail.com" className=" w-full flex justify-center items-center font-bold h-14 rounded-md border-2 border-teal-400 hover:border-none hover:bg-teal-400 hover:text-white">Let's talk</a>
           </div>
         </div>
