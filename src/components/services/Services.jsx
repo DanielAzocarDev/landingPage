@@ -4,8 +4,15 @@ import WordpressLogo from '../../assets/wordpressLogo.svg'
 export const Services = () => {
   return (
     <section className='w-full'>
-      <div className=' w-11/12 lg:w-10/12 bg-teal-300 rounded-3xl flex flex-col gap-12 px-3 py-12 mx-auto'>
-        <div className='md:flex gap-5'>
+      <div className='relative w-11/12 lg:w-10/12 flex flex-col gap-12 px-3 py-12 mx-auto overflow-hidden'>
+
+        <div className='absolute -top-10 -left-10 w-4/5 h-3/4 md:-top-32 md:-left-32 md:h-2/4 bg-sky-300 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob'></div>
+        <div className='absolute top-0 -right-10 w-2/3 h-1/2 md:-bottom-2 md:-right-24 bg-violet-200 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob'></div>
+
+
+        <div className='absolute bottom-0 -right-10 w-2/3 h-3/4 md:-bottom-32 md:-right-32 md:w-3/4 md:h-2/4 bg-blue-400 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob'></div>
+        <div className='absolute -bottom-10  -left-10 w-3/4 h-1/2 bg-sky-500 rounded-full mix-blend-multiply filter blur-2xl opacity-50 animate-blob'></div>
+        <div className='relative md:flex gap-5'>
           <div className='w-1/2 mb-7 mx-auto'>
             <img className='w-full lg:w-3/4 mx-auto' src={ReactLogo} alt="" />
           </div>
@@ -25,7 +32,7 @@ export const Services = () => {
             </ul>
           </div>
         </div>
-        <div className=' md:flex flex-row-reverse gap-5'>
+        <div className='relative md:flex flex-row-reverse gap-5'>
           <div className='w-1/2 mb-7 mx-auto'>
             <img className='w-full lg:w-3/4 mx-auto' src={WordpressLogo} alt="" />
           </div>
