@@ -11,7 +11,7 @@ export const Navbar = () => {
           <h2 className=' text-xl font-black'>Daniel</h2>
         </div>
 
-        <button className=" font-bold h-11 px-8 rounded-md border-2 border-teal-400 hover:border-none hover:bg-teal-400 hover:text-white">Let's talk</button>
+        <a href="mailto:danielazocardev@gmail.com" className=" font-bold h-11 px-8 flex justify-center items-center rounded-md border-2 border-teal-400 hover:border-none hover:bg-teal-400 hover:text-white">Let's talk</a>
       </div>
     </nav>
   )

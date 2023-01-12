@@ -10,18 +10,18 @@ export const Cta = () => {
         </div>
 
         <div className="w-1/2 flex flex-col gap-3">
-          <div className="flex items-center gap-3">
+          <a href="https://www.linkedin.com/in/danielazocardev/" target='_blank' className="flex items-center gap-3">
             <BsLinkedin className=" text-teal-400 text-2xl" />
             <p className=" text-lg font-bold leading-5">LinkedIn</p>
-          </div>
-          <div className="flex items-center gap-3">
+          </a>
+          <a href="https://www.instagram.com/daniel.azocar.v/" target='_blank' className="flex items-center gap-3">
             <BsInstagram className=" text-teal-400 text-2xl" />
             <p className=" text-lg font-bold leading-5">Instagram</p>
-          </div>
-          <div className="flex items-center gap-3">
-            <MdAlternateEmail className=" text-teal-400 text-3xl" />
+          </a>
+          <a href="mailto:danielazocardev@gmail.com" className="flex items-center gap-3">
+            <MdAlternateEmail className=" text-teal-400 text-2xl" />
             <p className=" text-lg font-bold leading-5">Danielazocardev@gmail.com</p>
-          </div>
+          </a>
         </div>
       </div>
     </section>
