@@ -6,16 +6,16 @@ export const BannerExperience = () => {
         <h2 className=" w-4/5 text-3xl font-black mb-5 tracking-wide">Los numeros hablan solos</h2>
         <div className="flex flex-col md:flex-row gap-6">
           <div >
-            <span className=" text-8xl font-black text-teal-500 mb-6">3+</span>
-            <p className=" text-lg font-light leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <span className=" text-8xl font-black text-teal-500 mb-6">+2</span>
+            <p className=" text-lg font-light leading-5">Años de experiencia con React</p>
           </div>
           <div >
-            <span className=" text-8xl font-black text-teal-500 mb-6">3+</span>
-            <p className=" text-lg font-light leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <span className=" text-8xl font-black text-teal-500 mb-6">+10</span>
+            <p className=" text-lg font-light leading-5">Proyectos realizados en mi trayectoria</p>
           </div>
           <div >
-            <span className=" text-8xl font-black text-teal-500 mb-6">3+</span>
-            <p className=" text-lg font-light leading-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <span className=" text-8xl font-black text-teal-500 mb-6">+30</span>
+            <p className=" text-lg font-light leading-5">repositorios en github</p>
           </div>
         </div>
 
